@@ -22,7 +22,7 @@ const AllProjects = () => {
                             </p>
                             <p className="text-cyan-600 font-semibold">JavaScript || React || Tailwind || Node.js || Mongodb</p>
                             <div className="flex items-center justify-around">
-                                <a href="https://learnbridge-11de6.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+                                <a target="_blank" href="https://learnbridge-11de6.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
                                     <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
                                     <span className="relative group-hover:text-white">Live</span>
                                 </a>
@@ -34,9 +34,9 @@ const AllProjects = () => {
                                     </a>
 
                                 </Link>
-                                <Link to='https://github.com/MdShuvo18/LearnBridge'>
+                                <Link target="_blank" to='https://github.com/MdShuvo18/LearnBridge'>
                                     <div className='ml-12 w-14 h-14'>
-                                      <img src="/public/github-icon-2.svg" alt="" />
+                                      <img src="/github-icon-2.svg" alt="" />
                                     </div>
                                 </Link>
                             </div>
@@ -59,7 +59,7 @@ const AllProjects = () => {
                             </p>
                             <p className="text-cyan-600 font-semibold">JavaScript || React || Tailwind || Node.js || Mongodb</p>
                             <div className="flex items-center justify-around">
-                                <a href="https://pulsepost-e00be.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+                                <a target="_blank" href="https://pulsepost-e00be.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
                                     <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
                                     <span className="relative group-hover:text-white">Live</span>
                                 </a>
@@ -73,9 +73,9 @@ const AllProjects = () => {
 
                                 </Link>
                                </div>
-                                <Link to='https://github.com/MdShuvo18/PulsePost'>
+                                <Link target="_blank" to='https://github.com/MdShuvo18/PulsePost'>
                                     <div className='ml-12 w-10 h-10'>
-                                      <img src="/public/github-icon-2.svg" alt="" />
+                                      <img src="/github-icon-2.svg" alt="" />
                                     </div>
                                 </Link>
                             </div>
@@ -98,7 +98,7 @@ const AllProjects = () => {
                             </p>
                             <p className="text-cyan-600 font-semibold">JavaScript || React || Tailwind || Node.js || Mongodb</p>
                             <div className="flex items-center justify-around">
-                                <a href="https://art-and-craft-store-c1aff.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+                                <a target="_blank" href="https://art-and-craft-store-c1aff.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
                                     <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
                                     <span className="relative group-hover:text-white">Live</span>
                                 </a>
@@ -110,9 +110,9 @@ const AllProjects = () => {
                                     </a>
 
                                 </Link>
-                                <Link to='https://github.com/MdShuvo18/ArtyPot'>
+                                <Link target="_blank" to='https://github.com/MdShuvo18/ArtyPot'>
                                     <div className='ml-12 w-14 h-14'>
-                                      <img src="/public/github-icon-2.svg" alt="" />
+                                      <img src="/github-icon-2.svg" alt="" />
                                     </div>
                                 </Link>
                             </div>
