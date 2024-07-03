@@ -7,20 +7,26 @@ const Banner = () => {
             <img className="w-64 h-56 rounded-full" src="/shuvo.jpeg" alt="" />
 
 
-             <h1 className="text-3xl font-extrabold text-white">I am   <span style={{ color: 'red', fontWeight: 'bold' }}>
-                                {/* Style will be inherited from the parent element */}
-                                <Typewriter
-                                    words={['Kamruzzaman Shuvo']}
-                                    loop={0 | false}
-                                    cursor
-                                    cursorStyle='_'
-                                    typeSpeed={70}
-                                    deleteSpeed={50}
-                                    delaySpeed={1000}
-                                    
-                                />
-                            </span> <br /> A Passionate Web Developer from Bangladesh</h1> 
-              
+            <h1 className="text-3xl font-extrabold text-white">I am   <span style={{
+                backgroundImage: 'linear-gradient(90deg, #FF8660 0%, #9A33FF 100%)',
+                WebkitBackgroundClip: 'text',
+                backgroundClip: 'text',
+                color: 'transparent',
+                fontWeight: 'bold',
+            }}>
+                {/* Style will be inherited from the parent element */}
+                <Typewriter
+                    words={['Kamruzzaman Shuvo']}
+                    loop={0 | false}
+                    cursor
+                    cursorStyle='_'
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={2000}
+
+                />
+            </span> <br /> A Passionate Web Developer from Bangladesh</h1>
+
 
             <p className="text-[#C5C5C5] font-light text-lg"> I am a skilled web developer specializing in front-end development with a passion for creating dynamic, responsive web applications. Proficient in <span className="text-2xl font-bold">HTML</span>, <span className="text-2xl font-bold">CSS</span>, <span className="text-2xl font-bold">JavaScript</span>, and modern frameworks like <span className="text-2xl font-bold">Tailwind</span> and <span className="text-2xl font-bold">React</span>, I build intuitive user interfaces. My expertise extends to backend development with <span className="text-2xl font-bold">MongoDB</span> and <span className="text-2xl font-bold">Node.js</span>, enabling me to deliver seamless full-stack solutions. Committed to excellence and continuous learning, I stay updated with the latest industry trends to ensure my projects are cutting-edge and future-proof.</p>
             <div>
