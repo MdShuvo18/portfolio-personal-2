@@ -35,7 +35,7 @@ const AllProjects = () => {
 
                                 </Link>
                                 <Link target="_blank" to='https://github.com/MdShuvo18/LearnBridge'>
-                                    <div className='ml-12 w-14 h-14'>
+                                    <div className='ml-12 w-10 h-10'>
                                       <img src="/github-icon-2.svg" alt="" />
                                     </div>
                                 </Link>
@@ -111,7 +111,7 @@ const AllProjects = () => {
 
                                 </Link>
                                 <Link target="_blank" to='https://github.com/MdShuvo18/ArtyPot'>
-                                    <div className='ml-12 w-14 h-14'>
+                                    <div className='ml-12 w-10 h-10'>
                                       <img src="/github-icon-2.svg" alt="" />
                                     </div>
                                 </Link>
