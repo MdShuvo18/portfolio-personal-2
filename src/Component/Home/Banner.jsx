@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Banner = () => {
     return (
         <div className="grid grid-cols-1 justify-items-center text-center space-y-10">
-            <img className="w-64 h-56 rounded-full" src="/shuvo.jpeg" alt="" />
+            <img className="w-64 h-60 rounded-full" src="/shuvo.jpeg" alt="" />
 
 
             <h1 className="text-3xl font-extrabold text-white">I am   <span style={{
