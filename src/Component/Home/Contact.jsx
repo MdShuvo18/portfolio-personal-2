@@ -47,10 +47,10 @@ const Contact = () => {
                 <a href="mailto:mdks33881@gmail.com" className="text-blue-500 hover:text-blue-700">
                     <img className="w-8 h-8 rounded-full" src="/112-gmail_email_mail-512.webp" alt="" />
                 </a>
-                <Link to='https://github.com/MdShuvo18'>
+                <Link target="_blank" to='https://github.com/MdShuvo18'>
                     <img className="w-8 h-8 rounded-full" src="/github-icon-2.svg" alt="" />
                 </Link>
-                <Link to='https://www.linkedin.com/in/kamruzzaman-shuvo/'>
+                <Link target="_blank" to='https://www.linkedin.com/in/kamruzzaman-shuvo/'>
                     <img className="w-8 h-8 rounded-full" src="/linkedin-logo_578229-227.avif" alt="" />
                 </Link>
             </div>

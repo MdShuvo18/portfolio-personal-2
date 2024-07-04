@@ -45,7 +45,9 @@ const Projects = () => {
                                     className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">LearnBridge</h2>
+                                <h2 className="card-title bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
+                                    LearnBridge
+                                </h2>
                                 <p>JavaScript || React || Tailwind || Node.js || Mongodb</p>
                                 <div className="card-actions items-center">
 
@@ -84,7 +86,7 @@ const Projects = () => {
                                     className="rounded-xl h-[164px]" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">PulsePost</h2>
+                                <h2 className="card-title bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">PulsePost</h2>
                                 <p>JavaScript || React || Tailwind || Node.js || Mongodb</p>
                                 <div className="card-actions items-center">
 
@@ -118,7 +120,7 @@ const Projects = () => {
                                     className="rounded-xl h-[164px]" />
                             </figure>
                             <div className="card-body items-center text-center">
-                                <h2 className="card-title">ArtyPot</h2>
+                                <h2 className="card-title bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">ArtyPot</h2>
                                 <p>JavaScript || React || Tailwind || Node.js || Mongodb</p>
                                 <div className="card-actions items-center">
                                     <a target='_blank' href="https://art-and-craft-store-c1aff.web.app/" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
