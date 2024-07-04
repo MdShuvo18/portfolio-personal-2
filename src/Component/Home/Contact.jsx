@@ -30,7 +30,7 @@ const Contact = () => {
                     console.log('FAILED...', err);
                 },
             );
-           
+
     }
     return (
         <div className="space-y-10">
@@ -54,8 +54,9 @@ const Contact = () => {
                     <img className="w-8 h-8 rounded-full" src="/linkedin-logo_578229-227.avif" alt="" />
                 </Link>
             </div>
+            <h1 className="text-3xl font-extrabold text-center bg-clip-text text-transparent bg-orange-gradient">Send email</h1>
             <div>
-                <form onSubmit={handleSend} className="w-1/3 ml-[150px] lg:ml-[520px]">
+                <form onSubmit={handleSend} className="lg:w-1/3  lg:ml-[520px]">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text text-white">Name</span>
