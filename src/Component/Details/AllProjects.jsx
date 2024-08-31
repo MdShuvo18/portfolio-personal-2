@@ -3,7 +3,6 @@ import Footer from "../Home/Footer";
 import Navbar from "../Home/Navbar";
 
 
-
 const AllProjects = () => {
     return (
         <div className="space-y-10">
@@ -20,7 +19,9 @@ const AllProjects = () => {
                                 LearnBridge #1
                             </h1>
                             <p className="py-6 text-lg">
-                                Welcome to LearnBridge, your ultimate platform for comprehensive learning and development. Here anyone can want to be a teacher. In this way apply for the request and also wait for the admin response. Also a random user treat like a student and also buy and purchase any course by the payment method system. Our goal is to provide high-quality educational content to help learners master new skills and advance their careers.
+                      
+                            Welcome to LearnBridge, your ultimate platform for comprehensive learning and development. Here anyone can want to be a teacher. In this way apply for the request and also wait for the admin response. Also a random user treat like a student and also buy and purchase any course by the payment method system. Our goal is to provide high-quality educational content to help learners master new skills and advance their careers.
+
                             </p>
                             <p className="text-cyan-600 font-semibold">JavaScript || React || Tailwind || Node.js || Mongodb</p>
                             <div className="flex items-center justify-around">

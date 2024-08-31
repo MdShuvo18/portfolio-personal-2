@@ -1,12 +1,18 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
-    const links = <>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/allprojects'>Projects</NavLink></li>
-        <li><NavLink to='/contactdetails'>Contact</NavLink></li>
-    </>
+    // const links = <>
+    //     <li><NavLink to='/'>Home</NavLink></li>
+    //     <li><NavLink to='/allprojects'>Projects</NavLink></li>
+    //     <li><NavLink to='/contactdetails'>Contact</NavLink></li>
+    // </>
+    const links = [
+        { title: "Home", path: "/" },
+        { title: "Projects", path: "/allprojects" },
+        { title: "Contact", path: "/contactdetails" },
+    ];
+    
     return (
         <div>
             <div className="navbar bg-[#222222]">
@@ -29,7 +35,11 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#FFFFFF]">
-                            {links}
+                           {links.map((link) => (
+                            <a key={link.path} className="text-xl">
+                                <Link className="hover:text-blue-300 hover:text-2xl hover:font-semibold hover:border-b-2 ml-3" to={link.path}>{link.title}</Link>
+                            </a>
+                        ))}
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl text-white">
@@ -42,7 +52,13 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-[#FFFFFF]">
-                        {links}
+                        
+                         {links.map((link) => (
+                            <a key={link.path} className="text-xl font-extrabold">
+                                <Link className="hover:text-blue-300 hover:text-2xl hover:font-semibold hover:border-b-2 ml-8" to={link.path}>{link.title}</Link>
+                            </a>
+                        ))}
+                        
                     </ul>
                 </div>
             </div>
