@@ -1,7 +1,7 @@
-/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const ProjectCard = ({ title, description, techStack, liveLink, detailsLink, repoLink, imageUrl }) => {
     return (
         <motion.div

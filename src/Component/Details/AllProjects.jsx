@@ -45,7 +45,7 @@ const AllProjects = () => {
             className="space-y-10"
         >
             <Navbar />
-            <div className="h-auto w-auto">
+            <div className="">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} {...project} />
                 ))}
