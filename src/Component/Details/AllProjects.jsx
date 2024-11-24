@@ -45,9 +45,11 @@ const AllProjects = () => {
             className="space-y-10"
         >
             <Navbar />
-            {projects.map((project, index) => (
-                <ProjectCard key={index} {...project} />
-            ))}
+            <div className="h-auto w-auto">
+                {projects.map((project, index) => (
+                    <ProjectCard key={index} {...project} />
+                ))}
+            </div>
             <Footer />
         </motion.div>
     );
