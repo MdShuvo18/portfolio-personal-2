@@ -6,7 +6,7 @@ import 'animate.css';
 const Banner = () => {
     return (
         <div className="grid grid-cols-1 justify-items-center text-center space-y-10">
-            <img className="imgShadow w-64 h-64 rounded-full" src="/shuvo.jpeg" alt="" />
+            <img className="imgShadow w-64 h-64 rounded-full" src="/shuvo-removebg-preview.png" alt="" />
 
 
             <h1 className="text-lg lg:text-3xl font-bold lg:font-extrabold text-white">I am   <span style={{

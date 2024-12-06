@@ -1,0 +1,19 @@
+.img-container {
+    height: 300px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 20s linear;
+    width: 100%;
+    height: full;
+}
+
+.img-container:hover img {
+    transform: translateY(-78%); 
+}
+

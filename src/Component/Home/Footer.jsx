@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-center bg-[#222222] text-base-content rounded p-10">
+            <footer className="footer bg-gray-900 footer-center text-base-content rounded p-10">
                 <p className="text-white text-lg font-bold">
                     <span className="bg-clip-text text-transparent bg-primary-gradient">
                         Kamruzzaman Shuvo <span className="text-white">||</span> Web Developer

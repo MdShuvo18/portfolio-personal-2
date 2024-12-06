@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 import Banner from "./Banner";
 import Contact from "./Contact";
 import Education from "./Education";
@@ -7,93 +7,44 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 
-const fadeIn = {
-    hidden: { opacity: 0, y: 50 },
-    visible: (custom) => ({
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.6, delay: custom * 0.2 },
-    }),
-};
+
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false); // Simulate loading time
+        }, 2000); // Set the loading time here (2 seconds)
+
+        return () => clearTimeout(timer); // Cleanup timeout
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className="flex items-center justify-center h-screen bg-black">
+                {/* Loading Spinner */}
+                <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-white"></div>
+            </div>
+        );
+    }
+
     return (
-        <div className="space-y-12">
-            {/* Navbar */}
-            <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={fadeIn}
-                custom={0}
-            >
-                <Navbar />
-            </motion.div>
-
-            {/* Banner */}
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeIn}
-                custom={1}
-            >
-                <Banner />
-            </motion.div>
-
-            {/* Experience */}
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeIn}
-                custom={2}
-            >
+        <div className="space-y-12 bg-black">
+            <Navbar />
+            <Banner />
+            <div id="skill">
                 <Experience />
-            </motion.div>
-
-            {/* Projects */}
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeIn}
-                custom={3}
-            >
+            </div>
+            <div id="project">
                 <Projects />
-            </motion.div>
-
-            {/* Education */}
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeIn}
-                custom={4}
-            >
-                <Education />
-            </motion.div>
-
-            {/* Contact */}
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeIn}
-                custom={5}
-            >
+            </div>
+            <Education />
+            <div id="contact">
                 <Contact />
-            </motion.div>
+            </div>
+            <Footer />
 
-            {/* Footer */}
-            <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.2 }}
-                variants={fadeIn}
-                custom={5}
-            >
-                <Footer />
-            </motion.div>
         </div>
     );
 };
