@@ -56,7 +56,7 @@ const Nav = () => {
             <div className="navbar-end">
                 <div>
                     <a className="flex" href="https://drive.google.com/file/d/1sSEOFwV_4qXkoItxamnDviUTpZEPKmUW/view?usp=sharing" target="_blank">
-                        <button type='button' className='bg-[#2E3438] shadow-2xl px-3 py-2 rounded-sm text-red-700 text-xl font-bold hover:scale-110 duration-200 hover:bg-slate-900 flex justify-center items-center gap-2'>
+                        <button type='button' className='bg-[#2E3438] shadow-2xl px-3 py-2 rounded-sm text-white text-xl font-bold hover:scale-110 duration-200 hover:bg-slate-900 flex justify-center items-center gap-2'>
                             Resume
                             <FaDownload />
                         </button>
