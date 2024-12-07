@@ -204,23 +204,23 @@ const Projects = () => {
             </div>
 
             <div className="">
-                {activeTab === "solo" && (              
-                        <ul className="mt-4 ">
-                            {soloProjects.map((project, index) => (
-                                <li key={index}>{project}</li>
-                            ))}
-                        </ul>
-                  
-                )}
+    {activeTab === "solo" && (
+        <ul className="mt-4 animate__animated animate__fadeIn">
+            {soloProjects.map((project, index) => (
+                <li key={index}>{project}</li>
+            ))}
+        </ul>
+    )}
 
-                {activeTab === "team" && (           
-                        <ul className="mt-4 list-disc list-inside">
-                            {teamProjects.map((project, index) => (
-                                <li key={index}>{project}</li>
-                            ))}
-                        </ul>
-                )}
-            </div>
+    {activeTab === "team" && (
+        <ul className="mt-4 list-disc list-inside animate__animated animate__fadeIn">
+            {teamProjects.map((project, index) => (
+                <li key={index}>{project}</li>
+            ))}
+        </ul>
+    )}
+</div>
+
         </div>
     );
 };

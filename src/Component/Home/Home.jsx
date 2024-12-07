@@ -7,8 +7,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 
-
-
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
 
@@ -31,20 +29,37 @@ const Home = () => {
 
     return (
         <div className="space-y-12 bg-black">
-            <Navbar />
-            <Banner />
-            <div id="skill">
+            {/* Animated Navbar */}
+            <div className="animate__animated animate__fadeInDown animate__delay-1s">
+                <Navbar />
+            </div>
+            
+            {/* Animated Banner */}
+            <div className="animate__animated animate__zoomIn animate__delay-2s">
+                <Banner />
+            </div>
+            
+            {/* Animated Sections */}
+            <div id="skill" className="animate__animated animate__fadeInLeft animate__delay-3s">
                 <Experience />
             </div>
-            <div id="project">
+            
+            <div id="project" className="animate__animated animate__fadeInRight animate__delay-4s">
                 <Projects />
             </div>
-            <Education />
-            <div id="contact">
+            
+            <div className="animate__animated animate__slideInUp animate__delay-5s">
+                <Education />
+            </div>
+            
+            <div id="contact" className="animate__animated animate__fadeIn animate__delay-6s">
                 <Contact />
             </div>
-            <Footer />
-
+            
+            {/* Animated Footer */}
+            <div className="animate__animated animate__fadeInUp animate__delay-7s">
+                <Footer />
+            </div>
         </div>
     );
 };
