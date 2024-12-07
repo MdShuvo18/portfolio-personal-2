@@ -41,6 +41,13 @@ const Solo = () => {
             liveLink: "https://mdshuvo18.github.io/Travel-Hut/",
             clientLink: "https://github.com/MdShuvo18/Travel-Hut",
         },
+        {
+            title: "CRUD with REDUX",
+            imageSrc: "/crud-with-redux-toolkit-omega.vercel.app_(iPhone 14 Pro Max).png",
+            technologies: ["React", "Redux", "Redux-TOOLKIT"],
+            liveLink: "https://crud-with-redux-toolkit-omega.vercel.app/",
+            clientLink: "https://github.com/MdShuvo18/CRUD-With-Redux-Toolkit",
+        },
     ];
 
     return (
