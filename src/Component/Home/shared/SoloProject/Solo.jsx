@@ -55,14 +55,14 @@ const Solo = () => {
             <h1 className="text-white text-center font-bold text-5xl pt-10">My Recent Projects</h1>
             <hr className="border border-red-600 mt-3 lg:mx-72" />
             <div className="pt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projectData.map((project, index) => (
-    <div
-        key={index}
-        className="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-4 w-full h-full animate__animated animate__fadeInUp animate__delay-1s transition-transform hover:scale-105"
-    >
-        <ProjectCard {...project} />
-    </div>
-))}
+                {projectData.map((project, index) => (
+                    <div
+                        key={index}
+                        className="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-4 w-full h-full animate__animated animate__fadeInUp animate__delay-1s transition-transform hover:scale-105"
+                    >
+                        <ProjectCard {...project} />
+                    </div>
+                ))}
 
             </div>
         </div>
